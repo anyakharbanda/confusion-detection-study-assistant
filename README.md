@@ -1,10 +1,32 @@
-#  Confusion Detection Study Assistant
-This project combines OCR, Machine Learning, Deep Learning, and AI-based NLP to create an interactive, real-time study assistant. It not only detects confusion dynamically but also provides AI-generated explanations, improving user engagement and making self-learning more effective.
+# Confusion Detection Study Assistant  
+**Deep Learning + Computer Vision + OCR + Gemini AI**
 
-📖 Problem Statement
-Many students struggle to comprehend complex study materials, often getting confused while reading lengthy or technical content. Traditional learning tools provide text summaries but do not dynamically detect confusion in real time.
-This project solves the problem by:
-✅ Detecting real-time confusion using eye tracking and facial expressions.
-✅ Extracting text from PDFs and images using OCR.
-✅ Applying AI-based NLP (via Google Gemini API) to provide simplified explanations.
-✅ Using deep learning models to improve confusion detection.
+
+## Overview
+
+**Confusion Detection Study Assistant** is an AI-powered learning companion that identifies when a student appears **confused while studying**, extracts the study material using **OCR**, and generates **simplified explanations** using Gemini AI.
+
+This system bridges the gap between **reading content** and **understanding it**, making learning more personalized and effective.
+
+
+## Features
+
+- Real-time confusion detection using webcam  
+- OCR to extract text from PDFs/images  
+- Gemini AI simplifies complex concepts for students  
+- Face + eye monitoring to understand engagement  
+- Useful for self-study, tutoring, and productivity  
+- Extendable into a complete EdTech learning assistant  
+
+
+## Tech Stack
+
+| Domain | Tools Used |
+|---|---|
+| Frontend | Streamlit UI |
+| Computer Vision | OpenCV, Haarcascade |
+| OCR | PyTesseract, PyMuPDF |
+| Deep Learning | EfficientNet / VGG embeddings |
+| Model | SVM (Confusion vs Not Confused) |
+| LLM Integration | Google Gemini API |
+| Language | Python |
